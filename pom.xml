@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ezbill.app</groupId>
+  <artifactId>ezbill</artifactId>
+  <version>${release.version}</version>
+  <packaging>pom</packaging>
+  
+  <name>ezbill</name>
+  <description>ezbill</description>
+  
+  <properties>
+		<java.version>1.8</java.version>
+		<release.version>0.0.1</release.version>
+		<spring.boot.version>1.4.3.RELEASE</spring.boot.version>
+		<spring.cloud.config.version>1.2.1.RELEASE</spring.cloud.config.version>
+	</properties>
+	
+  <modules>
+  	<module>ezbill-ui</module>
+  	<module>ezbill-web</module>
+  	<module>ezbill-services</module>
+  	<module>ezbill-config-services</module>
+  	<module>ezbill-domain</module>
+  </modules>
+</project>
